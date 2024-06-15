@@ -1,6 +1,7 @@
 import './App.css';
 import CopaAmericaGroups from './components/CopaAmericaGroups';
 import EuroGroups from './components/EuroGroups';
+import Footer from './components/Footer';
 import HomeScreen from './components/HomeScreen';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <HomeScreen />
       <EuroGroups/>
       <CopaAmericaGroups/>
+      <Footer/>
 
       </h2>
     </div>
