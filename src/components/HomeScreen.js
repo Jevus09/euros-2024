@@ -2,7 +2,7 @@ import React from 'react'
 import GIO from '../assets/GIO.jpeg'
 import JAY from '../assets/JAY.jpeg'
 import LOU from '../assets/LOU.jpeg'
-import RATON from '../assets/RATON.jpeg'
+import RATON from '../assets/TUTUTS.jpeg'
 import ISH from '../assets/ISH.jpeg'
 
 const HomeScreen = () => {
@@ -131,7 +131,7 @@ const HomeScreen = () => {
                   </div>
                   <div>
                     <div className='font-bold'>Tutus</div>
-                    <div className='text-sm opacity-50'>@El_Raton</div>
+                    <div className='text-sm opacity-50'>@El_Edgar</div>
                   </div>
                 </div>
               </td>
