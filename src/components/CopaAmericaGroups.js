@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { fetchFixtures } from '../lib/FetchData';
 
 const CopaAmericaGroups = () => {
+    // eslint-disable-next-line 
     const [fixturesData, setFixturesData] = useState(null);
 
     useEffect(() => {

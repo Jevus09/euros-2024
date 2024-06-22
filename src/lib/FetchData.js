@@ -1,4 +1,4 @@
-import axios from 'axios';
+// import axios from 'axios';
 import data from './DummyData';
 
 // export const fetchFixtures = async (id) => {

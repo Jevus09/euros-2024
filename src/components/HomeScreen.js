@@ -1,10 +1,10 @@
-import {React, useEffect, useState} from 'react'
+import {React,} from 'react'
 import GIO from '../assets/GIO.jpeg'
 import JAY from '../assets/JAY.jpeg'
 import LOU from '../assets/LOU.jpeg'
 import RATON from '../assets/RATON.jpeg'
 import ISH from '../assets/ISH.jpeg'
-import { fetchFixtures } from '../lib/FetchData'
+// import { fetchFixtures } from '../lib/FetchData'
 
 const HomeScreen = () => {
 
