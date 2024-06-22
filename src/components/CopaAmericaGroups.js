@@ -1,6 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import { fetchFixtures } from '../lib/FetchData';
 
 const CopaAmericaGroups = () => {
+    const [fixturesData, setFixturesData] = useState(null);
+
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const id = '6fbc70180e08330e'; // Replace with the actual ID you want to fetch from dummy data
+          const data = await fetchFixtures(id); // Call fetchFixtures with optional ID
+          console.log('Fetched fixtures data for ID:', id, data);
+          if (data) {
+            setFixturesData([data]); // Set the data in state
+          }
+        } catch (error) {
+          console.error('Error fetching fixtures:', error);
+        }
+      };
+  
+      fetchData();
+    }, []); 
+
+
     return (
         <div className='pt-16 flex flex-col justify-center items-center w-screen px-2 pb-12'>
             <h1 className='text-white text-2xl' >Copa America Groups</h1>

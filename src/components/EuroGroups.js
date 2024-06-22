@@ -2,7 +2,7 @@ import React from 'react'
 
 const EuroGroups = () => {
     return (
-        <div className='pt-16 flex flex-col justify-center items-center w-screen px-2'>
+        <div className='pt-16 flex flex-col justify-center items-center w-screen px-2 pb-8'>
             <h1 className='text-white text-2xl'>Euro Groups</h1>
             <div className='flex flex-col gap-16 pt-12' >
                 <div className='flex flex-col md:flex-row gap-12 justify-center items-center'>
