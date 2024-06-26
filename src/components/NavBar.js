@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoHomeOutline } from "react-icons/io5";
-import { FaGlobeEurope } from "react-icons/fa";
+import { FaEarthEurope } from "react-icons/fa6";
 import { MdOutlineSouthAmerica } from "react-icons/md";
 
 const NavBar = () => {
@@ -9,7 +9,7 @@ const NavBar = () => {
             <div className="navbar-center ">
                 <ul className="menu menu-horizontal gap-8 px-1 text-4xl md:text-2xl bg-black text-white rounded-lg opacity-60">
                     <li><a href='/'  ><IoHomeOutline  /></a></li>                                        
-                    <li><a href='/euros'><FaGlobeEurope /></a></li>
+                    <li><a href='/euros'><FaEarthEurope /></a></li>
                     <li><a href='/copa-america'><MdOutlineSouthAmerica /></a></li>
                 </ul>
             </div>
