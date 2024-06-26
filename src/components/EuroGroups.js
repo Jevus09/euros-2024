@@ -1,8 +1,13 @@
 import React from 'react'
+import BRACKET from '../assets/BRACKET.jpeg'
 
 const EuroGroups = () => {
     return (
         <div className='pt-16 flex flex-col justify-center items-center w-screen px-2 pb-8'>
+
+            <div className='py-12' >
+                <img src={BRACKET} alt='bracket euros 2024' className='rounded-2xl h-128' />
+            </div>
             <h1 className='text-white text-2xl'>Euro Groups</h1>
             <div className='flex flex-col gap-16 pt-12' >
                 <div className='flex flex-col md:flex-row gap-12 justify-center items-center'>
@@ -338,6 +343,7 @@ const EuroGroups = () => {
                 </div>
 
             </div>
+
 
         </div>
     )
